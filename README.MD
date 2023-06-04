@@ -36,4 +36,4 @@ C:\Users\User\Desktop\projeto\stokaqui\stockaqui-main>code .
 
 9 - Apos a inicalização do projeto no item 7, aperte "a" para abrir o aplicativo no Android Studio.
 
-10 - Se divirta!
+Obs. É necessário criar uma conta para acessar as funcionalidades do aplicativo.

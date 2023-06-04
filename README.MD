@@ -1,3 +1,4 @@
+
 Nesse repositório constam todos os arquivos necessários para a execução do projeto, sigua os passos abaixo:
 
 Requisitos:
@@ -5,37 +6,34 @@ Requisitos:
 - Ter o node/expo instalado 
 - Ter o Android Studio instalado
 
-1 - Abra o Prompt de Comando no modo administrador e escolha o diretório para criar o projeto. Obs: do item 2 até o 5, deverá ser executado no Prompt de Comando.
+1 - Faça o download do projeto: Abra o repositório do projeto no GitHub e clique no botão "Code" (ou "Código"). Em seguida, escolha a opção de download em ZIP para baixar o projeto compactado para o seu computador. Alternativamente, você também pode copiar o URL do repositório.
 
-2 - Crie o projeto digitando no diretorio escolhido utilizando o comando "npx create-expo-app nome-do-app"
+2 - Descompacte o projeto: Após o download, descompacte o arquivo ZIP em uma pasta de sua escolha.
 
-3 - Instale as dependencias do Sqlite no diretorio da pasta do seu projeto , sendo elas:
-   > npm install --save react-native-sqlite-storage
-   > npx expo install expo-sqlite
+3 - Abra o terminal: Abra o terminal ou prompt de comando do seu sistema operacional no modo administrador
 
-4 - Ainda no diretorio instale as dependencias do navigation e stack
-   > npm install @react-navigation/native
-   > npm install @react-navigation/stack
+4 - Navegue até a pasta do projeto: Use o comando cd (Change Directory) para navegar até a pasta do projeto que você acabou de descompactar. Por exemplo, se o projeto estiver em uma pasta chamada "meu-projeto - main", você pode usar o comando:
 
-5 - Inicialize o seu programa no VScode:
-    Exemplo: no diretorio da pasta do seu projeto digite "code ."
+cd meu-projeto-main
 
-No VScode:
+5 - Instale as dependências. Normalmente, você pode instalar as dependências usando o npm (Node Package Manager) ou o Yarn. Execute o seguinte comando para instalar as dependências:
 
-6 - Insira as imagens que constam na pasta "assets" na sua pasta "assets" do seu projeto
+npm install
+ou
+yarn install
 
-7 - Crie uma nova pasta chamada "screens"
+Isso instalará todas as dependências listadas no arquivo package.json do projeto.
 
-8 - Dentro da pasta "screens" crie os arquivos abaixo:
-   > Inicial.js
-   > Adicionar.js
-   > Baixar.js
-   > Delete.js
-   > Formulario.js
-   > Login.js
-   > Saldo.js
+6 - Execute o projeto: Após a instalação das dependências, incie o projeto no Vscode utilizando o comando no diretorio do seu projeto:
 
-9 - Pegue o conteudo da pasta "screens" e cole nos respectivos arquivos criados no passo anterior 
-    Exemplo: no github, pegue o conteudo do arquivo \screens\Adicionar.js e cole no arquivo Adicionar.js criado no seu projeto
+C:\Users\User\Desktop\projeto\stokaqui\stockaqui-main>code .
 
-10 - 
+7 - No terminal do Vscode incialize o projeto utilziando o comando
+
+"npx expo start"
+
+8 - Abra o simulador Android Studio e incie o seu android
+
+9 - Apos a inicalização do projeto no item 7, aperte "a" para abrir o aplicativo no Android Studio.
+
+10 - Se divirta!

@@ -28,7 +28,7 @@ Isso instalará todas as dependências listadas no arquivo package.json do proje
 
 C:\Users\User\Desktop\projeto\stokaqui\stockaqui-main>code .
 
-7 - No terminal do Vscode incialize o projeto utilziando o comando
+7 - No terminal do Vscode incialize o projeto utiliziando o comando
 
 "npx expo start"
 

@@ -5,7 +5,7 @@ Requisitos:
 - Ter o node/expo instalado 
 - Ter o Android Studio instalado
 
-1 - Abra o Prompt de Comando no modo administrador e escolha o diretório para criar o projeto
+1 - Abra o Prompt de Comando no modo administrador e escolha o diretório para criar o projeto. Obs: do item 2 até o 5, deverá ser executado no Prompt de Comando.
 
 2 - Crie o projeto digitando no diretorio escolhido utilizando o comando "npx create-expo-app nome-do-app"
 
@@ -17,9 +17,25 @@ Requisitos:
    > npm install @react-navigation/native
    > npm install @react-navigation/stack
 
-5 - Inicialize o seu programa no VScode no diretorio do seu projeto:
-    Exemplo: no diretorio da pasta do seu projeto digite "npx expo start"
+5 - Inicialize o seu programa no VScode:
+    Exemplo: no diretorio da pasta do seu projeto digite "code ."
+
+No VScode:
 
 6 - Insira as imagens que constam na pasta "assets" na sua pasta "assets" do seu projeto
 
-7 - 
+7 - Crie uma nova pasta chamada "screens"
+
+8 - Dentro da pasta "screens" crie os arquivos abaixo:
+   > Inicial.js
+   > Adicionar.js
+   > Baixar.js
+   > Delete.js
+   > Formulario.js
+   > Login.js
+   > Saldo.js
+
+9 - Pegue o conteudo da pasta "screens" e cole nos respectivos arquivos criados no passo anterior 
+    Exemplo: no github, pegue o conteudo do arquivo \screens\Adicionar.js e cole no arquivo Adicionar.js criado no seu projeto
+
+10 - 

@@ -1,5 +1,5 @@
 
-Nesse repositório constam todos os arquivos necessários para a execução do projeto, sigua os passos abaixo:
+Nesse repositório constam todos os arquivos necessários para a execução do projeto, siga os passos abaixo:
 
 Requisitos:
 - Ter o Vscode instalado

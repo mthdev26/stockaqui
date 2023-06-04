@@ -57,9 +57,10 @@ const App = () => {
                     } else {
                         // Produto não existe, adicionar novo produto
                         const valorTotal = (parseFloat(valor.replace(',', '.')) * parseFloat(quantidade.replace(',', '.'))).toFixed(2);
+                        const novoMedio = (parseFloat(valor.replace(',', '.'))).toFixed(2);
                         tx.executeSql(
                             'INSERT INTO produtos (nome, quantidade, valor, precoMedio) VALUES (?, ?, ?, ?)',
-                            [nomeProduto, quantidade.replace(',', '.'), valorTotal.toString(), valor.toString()],
+                            [nomeProduto, quantidade.replace(',', '.'), valorTotal.toString(), novoMedio.toString()],
                             (_, result) => {
                                 if (result.rowsAffected > 0) {
                                     Alert.alert('Legal =P', 'Produto adicionado com sucesso!');

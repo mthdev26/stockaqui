@@ -8,16 +8,16 @@ const TelaComBotoes = ({ navigation }) => {
                 source={require('../assets/inicial.jpg')}
             />
             <TouchableOpacity style={styles.botao} onPress={() => navigation.navigate('Adicionar')}>
-                <Text style={styles.textoBotao}>(+) Incluir um item</Text>
+                <Text style={styles.textoBotao}>(+) Registrar Entrada</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.botao} onPress={() => navigation.navigate('Baixar')}>
-                <Text style={styles.textoBotao}>(-) Baixar item</Text>
+                <Text style={styles.textoBotao}>(-) Registrar Saída</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.botao} onPress={() => navigation.navigate('Saldo')}>
                 <Text style={styles.textoBotao}>(~) Posição de Estoque</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.botao} onPress={() => navigation.navigate('Delete')}>
-                <Text style={styles.textoBotao}>(x) Deletar um item</Text>
+                <Text style={styles.textoBotao}>(x) Remover do Estoque</Text>
             </TouchableOpacity>
         </View>
     );

@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
     },
     texto: {
         fontSize: 24,
-        color: '#007BFF',
+        color: 'black',
         fontWeight: 'bold',
         textAlign: 'center',
     },
@@ -139,6 +139,8 @@ const styles = StyleSheet.create({
         paddingVertical: 10,
         paddingHorizontal: 20,
         marginTop: 20,
+        borderWidth: 1,
+        borderColor: 'black',
     },
     txtEnviar: {
         color: '#FFFFFF',
